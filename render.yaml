@@ -1,7 +1,0 @@
-services:
-    - type: web
-      name: your-spring-boot-app
-      env: java
-      buildCommand: ./mvnw clean package -DskipTests
-      startCommand: java -jar target/*.jar
-      plan: free
